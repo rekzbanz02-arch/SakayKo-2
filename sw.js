@@ -8,7 +8,7 @@ const CACHE_NAME = 'sakayko-v1';
 
 /* Files to cache immediately on install */
 const PRECACHE_URLS = [
-  './SakayKo_v10.html',
+  './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'
