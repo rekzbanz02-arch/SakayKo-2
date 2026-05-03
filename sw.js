@@ -79,7 +79,7 @@ self.addEventListener('fetch', function(event) {
         return response;
       }).catch(function() {
         /* Fallback: serve the main HTML if nothing else matches */
-        return caches.match('./SakayKo_v10.html');
+        return caches.match('./index.html');
       });
     })
   );
