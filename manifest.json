@@ -1,0 +1,48 @@
+{
+  "name": "SakayKo - Ride Booking",
+  "short_name": "SakayKo",
+  "description": "SakayKo ride booking web app with passenger, driver, admin, maps, paid chat, and autologin features.",
+  "start_url": "./SakayKo_v10_5_PWA_Chrome_install_fixed.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#141C28",
+  "theme_color": "#FF6B3D",
+  "orientation": "portrait-primary",
+  "categories": [
+    "travel",
+    "navigation",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open SakayKo",
+      "short_name": "Open",
+      "url": "./SakayKo_v10_5_PWA_Chrome_install_fixed.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
