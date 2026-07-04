@@ -2,7 +2,7 @@
   "name": "SakayKo - Ride Booking",
   "short_name": "SakayKo",
   "description": "SakayKo ride booking web app with passenger, driver, admin, maps, paid chat, and autologin features.",
-  "start_url": "./SakayKo_v10_5_PWA_Chrome_install_fixed.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "display_override": [
@@ -36,7 +36,7 @@
     {
       "name": "Open SakayKo",
       "short_name": "Open",
-      "url": "./SakayKo_v10_5_PWA_Chrome_install_fixed.html",
+      "url": "./index.html",
       "icons": [
         {
           "src": "icon-192.png",
