@@ -1,7 +1,7 @@
 const CACHE_NAME = 'sakayko-v10-5-pwa-cache-v1';
 const APP_SHELL = [
   './',
-  './SakayKo_v10_5_PWA_Chrome_install_fixed.html',
+  './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'
@@ -33,7 +33,7 @@ self.addEventListener('fetch', event => {
       }
       return response;
     } catch (err) {
-      return caches.match('./SakayKo_v10_5_PWA_Chrome_install_fixed.html');
+      return caches.match('./index.html');
     }
   })());
 });
